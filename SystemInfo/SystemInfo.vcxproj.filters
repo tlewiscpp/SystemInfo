@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{5d88fa9a-89e5-4fa8-8bd1-cf73af8c84b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{e000e981-2e44-40ce-8900-a0130faeedc4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\cpuinfo.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cpuinfodelegate.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\gpuinfo.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\gpuinfodelegate.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\motherboardinfo.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\motherboardinfodelegate.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\raminfo.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\raminfodelegate.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\systemcommand.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\osinfo.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\osinfodelegate.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\include\cpuinfo.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\cpuinfodelegate.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\gpuinfo.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\gpuinfodelegate.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\motherboardinfo.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\motherboardinfodelegate.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\raminfo.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\raminfodelegate.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\systemcommand.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\systeminfo.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\osinfo.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\osinfodelegate.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
